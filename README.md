@@ -2,18 +2,10 @@
 
 <div align="center">
 
-```
-  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—     â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-  â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â•šâ•â•â–ˆâ–ˆâ•”â•â•â•
-  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   
-  â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•”â•â•â•â• â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   
-  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   
-  â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â• â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â•â•šâ•â•     â•šâ•â•  â•šâ•â•â•šâ•â•â•šâ•â•  â•šâ•â•â•â•   â•šâ•â•  
-```
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Blueprint](https://img.shields.io/badge/Blueprint-Framework-blue)](https://blueprint.zip)
 [![Pterodactyl](https://img.shields.io/badge/Pterodactyl-Panel-green)](https://pterodactyl.io)
+[![Shell](https://img.shields.io/badge/Shell-Bash-orange)](https://www.gnu.org/software/bash/)
 
 **A fully automated installer for [Blueprint](https://blueprint.zip) â€” the industry-leading extension framework for Pterodactyl Panel.**
 
@@ -21,7 +13,7 @@
 
 ---
 
-## âš¡ One-Line Install (recommended)
+## One-Line Install
 
 Run this single command on your VPS as **root**:
 
@@ -29,38 +21,38 @@ Run this single command on your VPS as **root**:
 bash <(curl -s https://raw.githubusercontent.com/miuubyte/blueprint-installer/main/blueprint.sh)
 ```
 
-That's it. No downloading, no manual steps.
+**No downloading, no manual steps. Just run and follow the prompts.**
 
 ---
 
-## ðŸ“‹ What It Does
+## What It Does
 
-This installer automates the **entire official Blueprint installation process** from [blueprint.zip/docs](https://blueprint.zip/docs?page=getting-started/Installation):
+This installer automates the **entire official Blueprint installation process** per [blueprint.zip/docs](https://blueprint.zip/docs?page=getting-started/Installation):
 
 | Step | Description |
 |------|-------------|
-| âœ… Root check | Ensures the script runs with proper privileges |
-| âœ… OS detection | Detects and validates your Linux distribution |
-| âœ… Web server detection | Auto-detects Nginx or Apache2 |
-| âœ… Panel path detection | Finds your Pterodactyl installation automatically |
-| âœ… PHP version check | Validates PHP 8.0+ is installed |
-| âœ… Dependency install | Installs all required packages per official docs |
-| âœ… Node.js 22.x | Installs via NodeSource official repository |
-| âœ… Yarn + node modules | Installs Yarn globally and runs `yarn install` |
-| âœ… Composer | Installs/validates PHP dependency manager |
-| âœ… Disk space check | Warns if disk space is below 500MB |
-| âœ… Backup warning | Prompts with backup command before any changes |
-| âœ… Blueprint download | Downloads latest release from GitHub automatically |
-| âœ… Blueprint extraction | Extracts `release.zip` to panel directory |
-| âœ… `.blueprintrc` setup | Creates Blueprint config file (official step) |
-| âœ… Blueprint setup | Runs `blueprint.sh` with correct environment |
-| âœ… File permissions | Sets proper ownership and permissions |
-| âœ… Bash autocompletion | Adds `source blueprint;` to `~/.bashrc` |
-| âœ… Web server reload | Reloads Nginx or Apache after installation |
+| Root check | Ensures the script runs with proper privileges |
+| OS detection | Detects and validates your Linux distribution |
+| Web server detection | Auto-detects Nginx or Apache2 |
+| Panel path detection | Finds your Pterodactyl installation automatically |
+| PHP version check | Validates PHP 8.0+ is installed |
+| Dependency install | Installs all required packages per official docs |
+| Node.js 22.x | Installs via NodeSource official repository |
+| Yarn + node modules | Installs Yarn globally and runs `yarn install` |
+| Composer | Installs/validates PHP dependency manager |
+| Disk space check | Warns if disk space is below 500MB |
+| Backup warning | Prompts with backup command before any changes |
+| Blueprint download | Downloads latest release from GitHub automatically |
+| Blueprint extraction | Extracts `release.zip` to panel directory |
+| `.blueprintrc` setup | Creates Blueprint config file (official step) |
+| Blueprint setup | Runs `blueprint.sh` with correct environment |
+| File permissions | Sets proper ownership and permissions |
+| Bash autocompletion | Adds `source blueprint;` to `~/.bashrc` |
+| Web server reload | Reloads Nginx or Apache after installation |
 
 ---
 
-## ðŸ–¥ï¸ Requirements
+## Requirements
 
 | Requirement | Details |
 |-------------|---------|
@@ -74,9 +66,9 @@ This installer automates the **entire official Blueprint installation process** 
 
 ---
 
-## ðŸš€ Install Methods
+## Install Methods
 
-### Method 1 â€” One-liner (no download needed)
+### Method 1 â€” curl one-liner (recommended)
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/miuubyte/blueprint-installer/main/blueprint.sh)
@@ -88,7 +80,7 @@ bash <(curl -s https://raw.githubusercontent.com/miuubyte/blueprint-installer/ma
 bash <(wget -qO- https://raw.githubusercontent.com/miuubyte/blueprint-installer/main/blueprint.sh)
 ```
 
-### Method 3 â€” Download and run
+### Method 3 â€” Download and run manually
 
 ```bash
 wget https://raw.githubusercontent.com/miuubyte/blueprint-installer/main/blueprint.sh
@@ -98,32 +90,31 @@ bash blueprint.sh
 
 ---
 
-## ðŸ’¡ What is Blueprint?
+## What is Blueprint?
 
-[Blueprint](https://blueprint.zip) is the industry-leading extension/modding framework for the [Pterodactyl](https://pterodactyl.io) game server panel. It allows you to install, manage, and develop extensions that modify and enhance your Pterodactyl panel without touching its core files directly.
+[Blueprint](https://blueprint.zip) is the industry-leading extension/modding framework for [Pterodactyl](https://pterodactyl.io) game server panel. It lets you install, manage, and develop extensions that enhance your panel without touching core files.
 
-- ðŸ”Œ **Extensions marketplace**: [blueprint.zip/browse](https://blueprint.zip/browse)
-- ðŸ“– **Documentation**: [blueprint.zip/docs](https://blueprint.zip/docs)
-- ðŸ’¬ **Community Discord**: [discord.gg/blueprint](https://discord.com/servers/blueprint-1063548024825057451)
+- **Extensions marketplace**: [blueprint.zip/browse](https://blueprint.zip/browse)
+- **Documentation**: [blueprint.zip/docs](https://blueprint.zip/docs)
+- **Community Discord**: [discord.gg/blueprint](https://discord.com/servers/blueprint-1063548024825057451)
 
 ---
 
-## ðŸ›¡ï¸ Safety & Warnings
+## Safety & Warnings
 
-> [!WARNING]
-> Blueprint modifies core Pterodactyl panel files. Always **back up your panel** before running this installer.
+> **Warning:** Blueprint modifies core Pterodactyl panel files. Always **back up your panel** before running this installer.
 
 Backup command:
+
 ```bash
 tar -czf /root/ptero_backup_$(date +%Y%m%d_%H%M%S).tar.gz /var/www/pterodactyl
 ```
 
-> [!NOTE]
-> This installer follows the **official Blueprint documentation** step-by-step. No custom or unsupported methods are used.
+> **Note:** This installer follows the **official Blueprint documentation** step-by-step. No custom or unsupported methods are used.
 
 ---
 
-## ðŸ”§ Post-Installation
+## Post-Installation
 
 After installation completes:
 
@@ -134,12 +125,12 @@ After installation completes:
 
 ---
 
-## ðŸ“„ License
+## License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
-Made with â¤ï¸ by <a href="https://github.com/miuubyte">miuubyte</a> &nbsp;|&nbsp; Powered by <a href="https://blueprint.zip">Blueprint</a>
+Made with love by <a href="https://github.com/miuubyte">miuubyte</a> &nbsp;|&nbsp; Powered by <a href="https://blueprint.zip">Blueprint</a>
 </div>
